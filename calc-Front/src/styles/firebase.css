@@ -1,0 +1,87 @@
+/* Firebase UI Styles */
+.firebaseui-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.firebaseui-card-content {
+  padding: 0;
+}
+
+.firebaseui-idp-button {
+  max-width: 100%;
+  min-height: 40px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.firebaseui-idp-button:hover {
+  opacity: 0.9;
+}
+
+.firebaseui-idp-google {
+  background-color: #4285f4;
+}
+
+.firebaseui-idp-facebook {
+  background-color: #3b5998;
+}
+
+.firebaseui-idp-twitter {
+  background-color: #1da1f2;
+}
+
+.firebaseui-idp-github {
+  background-color: #24292e;
+}
+
+.firebaseui-textfield {
+  margin-bottom: 15px;
+}
+
+.firebaseui-textfield.mdl-textfield {
+  width: 100%;
+}
+
+.firebaseui-textfield.mdl-textfield .firebaseui-label {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.firebaseui-textfield.mdl-textfield .firebaseui-input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.firebaseui-textfield.mdl-textfield.is-focused .firebaseui-label {
+  color: #2196f3;
+}
+
+.firebaseui-textfield.mdl-textfield.is-focused .firebaseui-input {
+  border-bottom: 2px solid #2196f3;
+}
+
+.firebaseui-error-wrapper {
+  margin-top: 10px;
+  color: #f44336;
+}
+
+.firebaseui-info-bar {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .firebaseui-container {
+    padding: 10px;
+  }
+  
+  .firebaseui-idp-button {
+    min-height: 35px;
+    font-size: 14px;
+  }
+} 
